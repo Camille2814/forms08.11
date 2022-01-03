@@ -128,6 +128,7 @@
             this.textBox6.Size = new System.Drawing.Size(139, 20);
             this.textBox6.TabIndex = 10;
             this.textBox6.Text = "12 m-cy";
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // textBox5
             // 
@@ -173,6 +174,15 @@
             // box1
             // 
             this.box1.FormattingEnabled = true;
+            this.box1.Items.AddRange(new object[] {
+            "08.00",
+            "09.00",
+            "10.00",
+            "11.00",
+            "12.00",
+            "13.00",
+            "14.00",
+            "15.00"});
             this.box1.Location = new System.Drawing.Point(39, 192);
             this.box1.Name = "box1";
             this.box1.Size = new System.Drawing.Size(420, 21);
@@ -238,7 +248,6 @@
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(151, 45);
             this.trackBar1.TabIndex = 11;
-            this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.None;
             // 
             // panel4
             // 
