@@ -34,30 +34,30 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.box1 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.trackBar2 = new System.Windows.Forms.TrackBar();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.trackBar2 = new System.Windows.Forms.TrackBar();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -121,6 +121,55 @@
             this.panel3.Size = new System.Drawing.Size(497, 273);
             this.panel3.TabIndex = 2;
             // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(286, 166);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(139, 20);
+            this.textBox6.TabIndex = 10;
+            this.textBox6.Text = "12 m-cy";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(286, 73);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(139, 20);
+            this.textBox5.TabIndex = 9;
+            this.textBox5.Text = "Nazwisko";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(69, 99);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(139, 20);
+            this.textBox4.TabIndex = 8;
+            this.textBox4.Text = "Telefon";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(286, 99);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(139, 20);
+            this.textBox3.TabIndex = 7;
+            this.textBox3.Text = "Email";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(286, 140);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(139, 20);
+            this.textBox2.TabIndex = 6;
+            this.textBox2.Text = "15 000 zł";
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(69, 73);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(139, 20);
+            this.textBox1.TabIndex = 5;
+            this.textBox1.Text = "Imie";
+            // 
             // box1
             // 
             this.box1.FormattingEnabled = true;
@@ -175,6 +224,22 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Nasz doradca skontaktuje się z Tobą";
             // 
+            // trackBar2
+            // 
+            this.trackBar2.Location = new System.Drawing.Point(57, 168);
+            this.trackBar2.Name = "trackBar2";
+            this.trackBar2.Size = new System.Drawing.Size(151, 45);
+            this.trackBar2.TabIndex = 12;
+            this.trackBar2.TickStyle = System.Windows.Forms.TickStyle.None;
+            // 
+            // trackBar1
+            // 
+            this.trackBar1.Location = new System.Drawing.Point(57, 140);
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.Size = new System.Drawing.Size(151, 45);
+            this.trackBar1.TabIndex = 11;
+            this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.None;
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -213,71 +278,6 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(69, 73);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(139, 20);
-            this.textBox1.TabIndex = 5;
-            this.textBox1.Text = "Imie";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(286, 140);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(139, 20);
-            this.textBox2.TabIndex = 6;
-            this.textBox2.Text = "15 000 zł";
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(286, 99);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(139, 20);
-            this.textBox3.TabIndex = 7;
-            this.textBox3.Text = "Email";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(69, 99);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(139, 20);
-            this.textBox4.TabIndex = 8;
-            this.textBox4.Text = "Telefon";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(286, 73);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(139, 20);
-            this.textBox5.TabIndex = 9;
-            this.textBox5.Text = "Nazwisko";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(286, 166);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(139, 20);
-            this.textBox6.TabIndex = 10;
-            this.textBox6.Text = "12 m-cy";
-            // 
-            // trackBar1
-            // 
-            this.trackBar1.Location = new System.Drawing.Point(57, 140);
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(151, 45);
-            this.trackBar1.TabIndex = 11;
-            this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.None;
-            // 
-            // trackBar2
-            // 
-            this.trackBar2.Location = new System.Drawing.Point(57, 166);
-            this.trackBar2.Name = "trackBar2";
-            this.trackBar2.Size = new System.Drawing.Size(151, 45);
-            this.trackBar2.TabIndex = 12;
-            this.trackBar2.TickStyle = System.Windows.Forms.TickStyle.None;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -302,11 +302,11 @@
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
             this.ResumeLayout(false);
 
         }
