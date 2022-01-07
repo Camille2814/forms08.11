@@ -20,20 +20,12 @@ namespace WindowsFormsApp1
             trackBar1.Minimum = 1000;
             trackBar2.Maximum = 72;
             trackBar2.Minimum = 12;
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
-        }
-        private void trackBar1_Scroll(object sender, EventArgs e)
-        {
-            textBox2.Text = "" + trackBar1.Value + " zł";
-        }
-
-        private void trackBar2_Scroll(object sender, EventArgs e)
-        {
-            textBox6.Text = "" + trackBar2.Value + " m-cy";
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -66,6 +58,16 @@ namespace WindowsFormsApp1
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            textBox2.Text = "" + trackBar1.Value + "zł";
+        }
+
+        private void trackBar2_Scroll(object sender, EventArgs e)
+        {
+            textBox6.Text = "" + trackBar2.Value + "m-cy";
         }
     }
 }
